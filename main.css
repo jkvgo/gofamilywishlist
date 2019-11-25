@@ -1,0 +1,28 @@
+html * { box-sizing: border-box; }
+body { margin: 0; }
+.main-container{ 
+	font-family: tahoma;
+	display: flex;
+	flex-flow: row wrap;
+	background-image: url("./xmas-bg.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 10px;
+}
+.member{ 
+	margin: 0 10px 10px 0;
+	padding: 10px;
+	background: rgba(0,0,0,0.6);
+	border-radius: 15px;
+	margin-bottom: 20px;
+}
+.member .header { font-size: 20px; text-align: center; margin-bottom: 10px; color: white; }
+.member span { 
+	display: block;
+	background: rgba(211,211,211,0.5);
+	color: white;
+	margin-bottom: 10px;
+	padding: 3px;
+	border-radius: 7px;
+}
