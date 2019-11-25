@@ -1,19 +1,20 @@
 html * { box-sizing: border-box; }
 body { margin: 0; }
 .main-container{ 
-	font-family: tahoma;
+	font-family: arial;
 	display: flex;
 	flex-flow: row wrap;
 	background-image: url("./xmas-bg.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	background-position: right;
 	padding: 10px;
 }
 .member{ 
 	margin: 0 10px 10px 0;
 	padding: 10px;
-	background: rgba(0,0,0,0.6);
+	background: rgba(0,0,0,0.7);
 	border-radius: 15px;
 	margin-bottom: 20px;
 }
